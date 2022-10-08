@@ -417,6 +417,9 @@ const configSchema = {
         keepAlive: {
           type: 'boolean',
         },
+        path: {
+          type: 'string',
+        },
       },
       type: 'object',
     },
